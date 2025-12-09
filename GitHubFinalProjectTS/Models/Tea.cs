@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitHubFinalProjectTS.Models
 {
-    class Placeholder
+    public class Tea : IDrink
     {
+        public string Name => "Tea";
+        public decimal BasePrice => 2.00m;
+
+        public string GetDescription() => "A hot brewed tea.";
     }
 }

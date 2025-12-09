@@ -1,10 +1,11 @@
-﻿using System;
+﻿using GitHubFinalProjectTS.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitHubFinalProjectTS.Controllers
+namespace GitHubFinalProjectTS.Services
 {
     public class SimpleDrinkCreator : DrinkCreator
     {
