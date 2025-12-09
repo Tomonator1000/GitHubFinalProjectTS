@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitHubFinalProjectTS.Controllers
 {
-    class Placeholder
+    public interface IDrink
     {
+        string Name { get; }
+        decimal BasePrice { get; }
+
+        string GetDescription();
     }
 }
